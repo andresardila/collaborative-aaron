@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!--
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
 
     Hello Camper!
 
@@ -21,20 +24,59 @@
     - The freeCodeCamp Team
 
     -->
-      <header id="header">
-      <img src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/vv2mhmawjuzpjqyevrgj" id="header-img">
-          <nav id="id="nav-bar"">
-          <ul>
-            <li><a class="nav-link" href="#">microverse</a></li>
-            <li><a class="nav-link" href="#">microverse partner</a></li>
-            <li><a class="nav-link" href="#">microverse project</a></li>
-            </ul>
-          </nav>
-      </header>
-      <section>
-          
-       <iframe width="853" height="480" src="https://www.youtube.com/embed/28eTcAtbP8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>">
+  <header id="header">
+    <div class="logo">
+      <img
+        src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/vv2mhmawjuzpjqyevrgj"
+        id="header-img">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li></li><a class="nav-link" href="#microverse">microverse</a></li>
+        <li><a class="nav-link" href="#partner">partner</a></li>
+        <li><a class="nav-link" href="#project">project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="border round p-2 m-4">
+      <h4 class="partner">Microverse</h4>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ab placeat dolorum sed accusantium qui
+        sapiente unde ad. Maiores suscipit fuga inventore sapiente quod quasi ut eius earum distinctio quas. 
+      </p>
+    </div>
+    <section id="microverse">
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/28eTcAtbP8M" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        id="video"></iframe>
+    </section>
+
+    <section id="email-us">
+      <h5 class="partner pt-4">Send us an email now</h5>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input id="email" name="email" placeholder="insert your email here" type="email" required>
+        <input type="submit" id="submit" value="Get Started" class="btn btn-outline-primary our-btn">
+      </form>
+    </section>
+
+    <section id="project" class="info-place">
+      <h4 class="partner">Project</h4>
+      <p class="paragraph"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut ducimus in aperiam
+        tempore! Vel ipsa placeat
+        facilis modi praesentium iusto iste! Possimus rerum voluptas recusandae. Expedita pariatur tempora atque! </p>
+    </section>
+
+
+    <section id="partner" class="info-place">
+        <h4 class="partner">Partner</h4>
+        <p class="paragraph"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut ducimus in aperiam
+          tempore! Vel ipsa placeat
+          facilis modi praesentium iusto iste! Possimus rerum voluptas recusandae. Expedita pariatur tempora atque! </p>
       </section>
-    <script  src="js/index.js"></script>
-  </body>
+
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
